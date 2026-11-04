@@ -1,14 +1,7 @@
 package main
 
 import (
-	"fmt"
-	"learning/valuesshortinit"
-	// "matht"
-	// "learning/export"
-	// "learning/functions"
-	// "learning/multireturn"
-	// "learning/namedreturn"
-	// "learning/valueswithinit"
+	"learning/gorutine"
 )
 
 // go mod init ...
@@ -44,5 +37,33 @@ func main() {
 	// fmt.Println(valueswithinit.GetValues())
 
 	// Values Short Init
-	fmt.Println(valuesshortinit.GetValue())
+	// fmt.Println(valuesshortinit.GetValue())
+
+	// Defer
+	// deferr.GetDefer()
+
+	// Slice
+	// slice.GetSlices()
+
+	// Map
+	// mymap.GetMap()
+
+	// Function as Value
+	// addFunc := func(a, b float64) float64 {
+	// 	return a + b
+	// }
+	// fmt.Println(functions.AddFn(addFunc))
+
+	// Method
+	// num := methods.Number{Value: 1}
+	// fmt.Println(num.GetNumber())
+
+	// Pointer
+	// pointers.Use()
+
+	// Stringer
+	// stringer.GetStringer()
+
+	// Gorutine
+	gorutine.GetRoutine()
 }
