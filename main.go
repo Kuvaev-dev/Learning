@@ -1,9 +1,5 @@
 package main
 
-import (
-	"learning/gorutine"
-)
-
 // go mod init ...
 
 func main() {
@@ -65,5 +61,12 @@ func main() {
 	// stringer.GetStringer()
 
 	// Gorutine
-	gorutine.GetRoutine()
+	// gorutine.GetRoutine()
+
+	// Channel
+	// channels.UseChannel()
+	// channels.UseBufferedChannel()
+
+	// Mutex
+	// mutex.UseMutex()
 }
