@@ -1,6 +1,8 @@
 package main
 
-import "learning/database"
+import (
+	"learning/reflection"
+)
 
 // go mod init ...
 
@@ -84,5 +86,8 @@ func main() {
 	// http.UseHttpClient()
 
 	// DB
-	database.UsePostgresDB()
+	// database.UsePostgresDB()
+
+	// Reflection
+	reflection.UseReflection()
 }
