@@ -1,5 +1,7 @@
 package main
 
+import "learning/database"
+
 // go mod init ...
 
 func main() {
@@ -69,4 +71,18 @@ func main() {
 
 	// Mutex
 	// mutex.UseMutex()
+
+	// Net
+	// Dial
+	// net.GetDial()
+	// Listen
+	// net.GetListen()
+
+	// HTTP
+	// http.UseHttp()
+	// fmt.Println("----------------------------")
+	// http.UseHttpClient()
+
+	// DB
+	database.UsePostgresDB()
 }
